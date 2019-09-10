@@ -66,9 +66,12 @@ font-weight: 100;
 padding: 20px;
 text-transform: uppercase;
 border-radius: 6px;
-display: inline-block;
+display:inline;
 transition: all 0.3s ease 0s;
+text-decoration: none;
+ 
 }
+
 
 .slk-btn:hover {
 color: #404040 !important;
@@ -79,11 +82,33 @@ background: none;
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
 }
-.slk-image{
-  width:2px;
+.slk-icon{
+  display: inline;
+  width: 20px;
+  /* border: #333 solid 1px; */
+}
+
+/* .slk-text{
+  color: red;
+  text-decoration-stylee;
+} */
+
+.text-slogan{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+border: red solid 1px;
+/* padding-bottom:1rem;  */
+}
+
+.ticky-bot img{
+display: block;
+width: 24rem;
+margin: 5rem 2rem;
+border: red solid 1px;
 }
 
 
-/* .wrapper > div:nth-child(even){
-  background: grey;
-} */
+ 
