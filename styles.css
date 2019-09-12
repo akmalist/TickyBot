@@ -17,16 +17,7 @@ text-decoration: none;
 font-size: 1.5rem;
 }
 
-.wrapper {
-  display: grid;
-  /* grid-template-rows: 1fr 1fr 1fr; */
-  /* grid-gap: 10px; */
-  /* grid-auto-rows: minmax(400px, auto) */
-}
-
-/* .wrapper>div:nth-child(odd) {
-  background: #55c0ec;
-} */
+ 
 
 .first-page{
   display: grid;
@@ -48,14 +39,34 @@ font-size: 1.5rem;
     font-size: 5rem;
     letter-spacing: -.1875rem;
     line-height: 1;
-    margin-bottom: 2rem;
+    margin: 0;
+    
 }
+
+.bot-name{
+  display: inline-block;
+  padding: 30px 35px;
+  margin: 5rem;
+  /* float: clear; */
+  text-align: center;
+  }
+  
+  
+  .ticky-bot img{
+  display: flex;
+  width:18rem;
+ 
+  margin: 7rem -4rem;
+  /* border: red solid 1px; */
+  }
+  
 .bot-name p{
 color: #fff;
 font-size: 1.675rem;
 font-weight: 300;
 line-height: 1.25;
-margin-bottom: 2rem
+margin-bottom: 3rem;
+
 }
 /******************* Button *************/
 .slk-btn {
@@ -84,31 +95,9 @@ transition: all 0.3s ease 0s;
 }
 .slk-icon{
   display: inline;
-  width: 20px;
-  /* border: #333 solid 1px; */
+  width: 1.5rem;
+  
 }
 
-/* .slk-text{
-  color: red;
-  text-decoration-stylee;
-} */
-
-.text-slogan{
-display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-border: red solid 1px;
-/* padding-bottom:1rem;  */
-}
-
-.ticky-bot img{
-display: block;
-width: 24rem;
-margin: 5rem 2rem;
-border: red solid 1px;
-}
-
-
+ 
  
