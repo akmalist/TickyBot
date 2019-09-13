@@ -1,22 +1,29 @@
 body {
-	margin: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather, Montserrat, Sacramento
 }
 
+p{
+    color: rgba(0,0,0,.75);
+    font-weight: 300;
+    line-height: 1.5;
+}
 
 /****************Navigation menu*************/
 .nav-container {
-	display: flex;
-	background: #444444;
-	padding: 1.5rem;
-	justify-content: center;
-	align-items: center
+    display: flex;
+    background: #444444;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center
 }
 
 .nav-container a {
-	padding: 1.5rem 1.5rem;
-	color: #ebce95;
-	text-decoration: none;
-	font-size: 1.5rem;
+    padding: 1.5rem 1.5rem;
+    color: #ebce95;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 
@@ -24,164 +31,173 @@ body {
 
 @media(min-width: 568px) {
 
-	.first-page {
-		display: flex;
-		align-items: center;
-		min-height: calc(70vh - 1rem);
-	}
+    .first-page {
+        display: flex;
+        align-items: center;
+        min-height: calc(70vh - 1rem);
+    }
 
-	.about-page {
-		margin: 3rem;
-		min-height: calc(70vh - 15rem);
-		 
-	}
+    .about-page {
+        margin: 3rem;
+    }
 
-	.about {
-		display: flex;
-		justify-content: center;
+    .about {
+        display: flex;
+        justify-content: center;
 
-	}
-	
-	.cards{
-		display: flex;
-/*		align-items: center;*/
-		justify-content:center;
-		 
-		
-	}
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
 
 }
-
-
 
 
 /**************All pages ****************/
 
 .first-page {
-	background: #55c0ec;
-
-
+    background: #55c0ec;
 }
 
 .first-page div {
-	padding: 10px;
-	text-align: center;
-
-
-
+     padding: 20px;
+    text-align: center;
 }
 
 .bot-info {
-	flex: 2;
-
+    flex: 3;
 }
-
 .bot-image {
-	flex: 1;
-
+    flex: 4;
 }
 
 .bot-image img {
-	margin: 3rem;
-	width: 25rem;
+    margin: 2rem;
+    width: 30rem;
 }
 
 .name {
-	color: rgba(0, 0, 0, .6);
-	font-size: 5rem;
-	letter-spacing: -.1875rem;
+    color: rgba(0, 0, 0, .6);
+    font-size: 5rem;
+    letter-spacing: -.1875rem;
 }
 
 .text-slogan {
-	color: #fff;
-	font-size: 1.675rem;
-	font-weight: 300;
-	line-height: 1.25;
-	margin-bottom: 2rem;
+    color: #fff;
+    font-size: 1.675rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 3rem;
 }
 
 
 /******************* Button *************/
 .slk-btn {
-	border: none;
-	background: #404040;
-	color: #ffffff !important;
-	font-weight: 100;
-	padding: 35px;
-	text-transform: uppercase;
-	border-radius: 6px;
-	display: inline;
-	transition: all 0.3s ease 0s;
-	text-decoration: none;
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 35px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
 
 }
 
 
 .slk-btn:hover {
-	color: #404040 !important;
-	font-weight: 700 !important;
-	letter-spacing: 3px;
-	background: none;
-	-webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-	-moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-	transition: all 0.3s ease 0s;
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
 }
 
 .slk-icon {
-	display: inline;
-	width: 1.8rem;
+    display: inline;
+    width: 1.8rem;
 
 }
- 
+
 /**************ABOUT SECTION**************/
 
 .about-text {
-	/*	border: solid 1px red;*/
-	flex-basis: 30rem;
-	margin: 3rem;
-	text-align: center;
-
+/*
+    flex-basis: 30rem;
+    margin: 3rem;
+    text-align: center;
+*/
 }
-
-
 
 /*************HOW WORKS SECTION************/
 
-h3{
-	padding: 2rem;
-	font-size: 3rem;
-	text-align: center;
-	margin: 0;
+h3 {
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
 }
 
-.how-works{
-	background-color: #5dc0a6;
-	
-}
- 
+.how-works {
+    background-color: #5dc0a6;
 
-.card-info img{
-	margin: 3rem;
-	width: 224px;
-	
-	
 }
 
-.card-info{
-	text-align: center;
-	flex-basis: 10rem;
-	background-color: #40596b;
-	align-self: stretch;
-	border-radius: 10px;
-	margin: 0 1rem 5rem 1rem;
+
+.card-info img {
+    margin: 3rem;
+    width: 224px;
+
+
+}
+
+.card-info {
+    text-align: center;
+    flex-basis: 10rem;
+    background-color: #40596b;
+    align-self: stretch;
+    border-radius: 10px;
+    margin: 0 1rem 5rem 1rem;
     padding: 0;
     text-align: center;
-	 
-	
 }
 
-.card-text{
-	background-color: aliceblue;
-	padding: 2rem;
+.card-text {
+    background-color: aliceblue;
+    padding: 2rem;
 
+}
+
+/********************FEATURE SECTION****************/
+
+.features-page {
+    width: 35rem;
+    margin: 3rem auto;
+}
+
+.feature-info p {
+    padding: 3rem;
+}
+
+/********************FOOTER SECTION****************/
+footer {
+    background: #40596b;
+}
+
+.container{
+    padding:2rem;
+}
+.container p{
+    color:aliceblue;
+    font-size: 13px;
+    width: 35rem;
+    margin: auto;
+    padding: 3px;
+    text-align: center;
 }
