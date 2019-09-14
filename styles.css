@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Merriweather, Montserrat, Sacramento
 }
-
+ 
 p{
     color: rgba(0,0,0,.75);
     font-weight: 300;
@@ -16,14 +16,15 @@ p{
     background: #444444;
     padding: 1.5rem;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .nav-container a {
-    padding: 1.5rem 1.5rem;
+	padding: 1.5rem 1.5rem;
     color: #ebce95;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+
 }
 
 
@@ -33,6 +34,7 @@ p{
 
     .first-page {
         display: flex;
+		justify-content: center;
         align-items: center;
         min-height: calc(70vh - 1rem);
     }
@@ -41,11 +43,15 @@ p{
         margin: 3rem;
     }
 
-    .about {
+    .about{ 
         display: flex;
-        justify-content: center;
-
-    }
+        justify-content:center;
+     }
+	.third{
+		display: flex;
+		justify-content: center;
+	 
+	}
 
     .cards {
         display: flex;
@@ -62,32 +68,28 @@ p{
 }
 
 .first-page div {
-     padding: 20px;
+    padding: 20px;
     text-align: center;
 }
-
-.bot-info {
-    flex: 3;
-}
-.bot-image {
-    flex: 4;
-}
-
+ 
 .bot-image img {
     margin: 2rem;
-    width: 30rem;
+    width: 25rem;
 }
 
-.name {
+.name{
     color: rgba(0, 0, 0, .6);
     font-size: 5rem;
-    letter-spacing: -.1875rem;
+    letter-spacing: 0.14rem;
 }
 
+ 
+
 .text-slogan {
-    color: #fff;
+	display: flex;
+	width: 30rem;
+ 	color: #fff;
     font-size: 1.675rem;
-    font-weight: 300;
     line-height: 1.25;
     margin-bottom: 3rem;
 }
@@ -128,11 +130,25 @@ p{
 /**************ABOUT SECTION**************/
 
 .about-text {
-/*
-    flex-basis: 30rem;
-    margin: 3rem;
-    text-align: center;
-*/
+ 	flex-direction: column;
+ 	margin: 2rem;
+	align-items:center
+
+}
+.first {
+	flex-basis: 20rem;
+ }
+.second{
+	 flex-basis: 20rem;
+	
+}
+.third{
+	margin: 2rem;
+	align-items:center
+}
+.third p{
+	flex-basis: 45rem;
+	justify-content: center;
 }
 
 /*************HOW WORKS SECTION************/
