@@ -1,219 +1,274 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Merriweather, Montserrat, Sacramento
-}
- 
-p{
-    color: rgba(0,0,0,.75);
-    font-weight: 300;
-    line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	font-family: Merriweather, Montserrat, Sacramento
 }
 
-/****************Navigation menu*************/
-.nav-container {
-    display: flex;
-    background: #444444;
-    padding: 1.5rem;
-    justify-content: center;
-    align-items: center;
+h3 {
+	font-size: 3rem;
+	text-align: center;
 }
 
-.nav-container a {
-	padding: 1.5rem 1.5rem;
-    color: #ebce95;
-    text-decoration: none;
-    font-size: 1.2rem;
-
+p {
+	color: rgba(0, 0, 0, .75);
+	font-weight: 300;
+	line-height: 1.5;
 }
-
 
 /***********MEDIA**************/
 
 @media(min-width: 568px) {
 
-    .first-page {
-        display: flex;
-		justify-content: center;
-        align-items: center;
-        min-height: calc(70vh - 1rem);
-    }
 
-    .about-page {
-        margin: 3rem;
-    }
+	/****************Navigation menu*************/
 
-    .about{ 
-        display: flex;
-        justify-content:center;
-     }
-	.third{
-		display: flex;
-		justify-content: center;
-	 
+	.nav-container a {
+		padding: 1.5rem 1.5rem;
+		font-size: 1.2rem;
+
 	}
 
-    .cards {
-        display: flex;
-        justify-content: center;
-    }
+
+	.first-page {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: calc(70vh - 1rem);
+	}
+
+	.name {
+		font-size: 5rem;
+
+	}
+
+
+	.text-slogan {
+		width: 28rem;
+
+	}
+
+
+
+	.bot-image img {
+		margin: 2rem;
+		width: 30rem;
+	}
+
+
+
+
+	.about {
+		display: flex;
+		justify-content: center;
+	}
+
+	.third {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.cards {
+		display: flex;
+		justify-content: center;
+	}
+
+	/***features*****/
+
+	.features-page {
+		width: 40rem;
+		margin: 3rem auto;
+
+	}
+
+	.features-page h3 {
+		padding-top: 2rem;
+	}
+
 
 }
+
+/****************Navigation menu*************/
+.nav-container {
+	display: flex;
+	background: #444444;
+	padding: 1.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-container a {
+	padding: 0.5rem;
+	color: #ebce95;
+	text-decoration: none;
+
+}
+
+
+
 
 
 /**************All pages ****************/
 
 .first-page {
-    background: #55c0ec;
+	background: #55c0ec;
 }
 
 .first-page div {
-    padding: 20px;
-    text-align: center;
+	padding: 1.2rem;
+	text-align: center;
+
 }
- 
+
 .bot-image img {
-    margin: 2rem;
-    width: 25rem;
+	width: 20rem;
+	margin-bottom: 3rem;
 }
 
-.name{
-    color: rgba(0, 0, 0, .6);
-    font-size: 5rem;
-    letter-spacing: 0.14rem;
+.name {
+	color: rgba(0, 0, 0, .6);
+	font-size: 4rem;
+	letter-spacing: 0.14rem;
 }
 
- 
+
 
 .text-slogan {
 	display: flex;
-	width: 30rem;
- 	color: #fff;
-    font-size: 1.675rem;
-    line-height: 1.25;
-    margin-bottom: 3rem;
+	width: 20rem;
+	color: #fff;
+	font-size: 1.675rem;
+	line-height: 1.25;
+	margin-bottom: 3rem;
+
 }
 
 
 /******************* Button *************/
 .slk-btn {
-    border: none;
-    background: #404040;
-    color: #ffffff !important;
-    font-weight: 100;
-    padding: 35px;
-    text-transform: uppercase;
-    border-radius: 6px;
-    display: inline;
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
+	border: none;
+	background: #404040;
+	color: #ffffff !important;
+	font-weight: 100;
+	padding: 35px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline;
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
 
 }
 
 
 .slk-btn:hover {
-    color: #404040 !important;
-    font-weight: 700 !important;
-    letter-spacing: 3px;
-    background: none;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    transition: all 0.3s ease 0s;
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+	transition: all 0.3s ease 0s;
 }
 
 .slk-icon {
-    display: inline;
-    width: 1.8rem;
+	display: inline;
+	width: 1.8rem;
 
 }
 
 /**************ABOUT SECTION**************/
 
-.about-text {
- 	flex-direction: column;
- 	margin: 2rem;
-	align-items:center
 
+.about-page {
+	margin: 2rem;
 }
+
+.about-text {
+	flex-direction: column;
+	margin: 2rem;
+	align-items: center
+}
+
 .first {
 	flex-basis: 20rem;
- }
-.second{
-	 flex-basis: 20rem;
-	
 }
-.third{
+
+.second {
+	flex-basis: 20rem;
+
+}
+
+.third {
 	margin: 2rem;
-	align-items:center
+	align-items: center
 }
-.third p{
+
+.third p {
 	flex-basis: 45rem;
 	justify-content: center;
+	padding-bottom: 2rem;
 }
 
 /*************HOW WORKS SECTION************/
 
-h3 {
-    padding: 2rem;
-    font-size: 3rem;
-    text-align: center;
-    margin: 0;
-}
 
 .how-works {
-    background-color: #5dc0a6;
-
+	background-color: #5dc0a6;
+	padding: 1rem 0;
 }
 
 
 .card-info img {
-    margin: 3rem;
-    width: 224px;
+	margin: 3rem;
+	width: 224px;
 
 
 }
 
 .card-info {
-    text-align: center;
-    flex-basis: 10rem;
-    background-color: #40596b;
-    align-self: stretch;
-    border-radius: 10px;
-    margin: 0 1rem 5rem 1rem;
-    padding: 0;
-    text-align: center;
+	text-align: center;
+	flex-basis: 10rem;
+	background-color: #40596b;
+	align-self: stretch;
+	border-radius: 10px;
+	margin: 0 1rem 5rem 1rem;
+	padding: 0;
+	text-align: center;
 }
 
 .card-text {
-    background-color: aliceblue;
-    padding: 2rem;
+	background-color: aliceblue;
+	padding: 2rem;
 
 }
 
 /********************FEATURE SECTION****************/
 
 .features-page {
-    width: 35rem;
-    margin: 3rem auto;
+	margin: 2rem auto;
+
 }
 
+
 .feature-info p {
-    padding: 3rem;
+	padding: 3rem;
 }
+
 
 /********************FOOTER SECTION****************/
 footer {
-    background: #40596b;
+	background: #40596b;
 }
 
-.container{
-    padding:2rem;
+.container {
+	padding: 2rem;
 }
-.container p{
-    color:aliceblue;
-    font-size: 13px;
-    width: 35rem;
-    margin: auto;
-    padding: 3px;
-    text-align: center;
+
+.container p {
+	color: aliceblue;
+	font-size: 13px;
+	width: 19rem;
+	margin: auto;
+	padding: 3px;
+	text-align: center;
 }
