@@ -12,6 +12,8 @@ body {
 h3 {
 	font-size: 3rem;
 	text-align: center;
+	color:rgba(0,0,0,.75);
+	letter-spacing: -.095rem;
 }
 
 p {
@@ -135,8 +137,6 @@ p {
 	letter-spacing: 0.14rem;
 }
 
-
-
 .text-slogan {
 	display: flex;
 	width: 20rem;
@@ -147,6 +147,12 @@ p {
 
 }
 
+.strong-header{
+	font-weight: bold;
+	color:#ed9a73;
+ 	
+}
+
 
 /******************* Button *************/
 .slk-btn {
@@ -154,9 +160,9 @@ p {
 	background: #404040;
 	color: #ffffff !important;
 	font-weight: 100;
-	padding: 35px;
+	padding: 25px;
 	text-transform: uppercase;
-	border-radius: 6px;
+	border-radius: 8px;
 	display: inline;
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
@@ -177,7 +183,6 @@ p {
 .slk-icon {
 	display: inline;
 	width: 1.8rem;
-
 }
 
 /**************ABOUT SECTION**************/
@@ -253,7 +258,6 @@ p {
 
 }
 
-
 .feature-info p {
 	padding: 3rem;
 }
@@ -273,6 +277,34 @@ footer {
 	font-size: 13px;
 	width: 19rem;
 	margin: auto;
-	padding: 3px;
+	padding: 2px;
 	text-align: center;
 }
+.repo{
+	text-decoration:none;
+	color: #55c0ec;
+	font-size: 0.9rem;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 1;
+	border: none;
+	outline: none;
+ 	padding: 0;
+	cursor: pointer;
+	width:3rem;
+	scroll-behavior: smooth;
+	
+  }
+  
+  #myBtn:hover {
+	transform: scale(1.1);
+
+  }
+   
+
+ 
