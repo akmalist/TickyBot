@@ -1,13 +1,11 @@
 html{
 	scroll-behavior: smooth;
 }
-
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Merriweather, Montserrat, Sacramento
 }
-
 
 h3 {
 	font-size: 3rem;
@@ -15,25 +13,19 @@ h3 {
 	color:rgba(0,0,0,.75);
 	letter-spacing: -.095rem;
 }
-
 p {
 	color: rgba(0, 0, 0, .75);
 	font-weight: 300;
 	line-height: 1.5;
 }
-
-/***********MEDIA**************/
+      /***********MEDIA**************/
 
 @media(min-width: 568px) {
-
-
-	/****************Navigation menu*************/
 
 	.nav-container a {
 		padding: 1.5rem 1.5rem;
 		font-size: 1.2rem;
 	}
-
 
 	.first-page {
 		display: flex;
@@ -44,24 +36,17 @@ p {
 
 	.name {
 		font-size: 5rem;
-
 	}
 
 
 	.text-slogan {
-		width: 28rem;
-
+	 	width: 28rem;
 	}
-
-
 
 	.bot-image img {
 		margin: 2rem;
 		width: 30rem;
 	}
-
-
-
 
 	.about {
 		display: flex;
@@ -79,8 +64,6 @@ p {
 		justify-content: center;
 	}
 
-	/***features*****/
-
 	.features-page {
 		width: 40rem;
 		margin: 3rem auto;
@@ -93,6 +76,7 @@ p {
 
 
 }
+
 
 /****************Navigation menu*************/
 .nav-container {
@@ -109,13 +93,7 @@ p {
 	text-decoration: none;
 
 }
-
-
-
-
-
-/**************All pages ****************/
-
+/**************First page ****************/
 .first-page {
 	background: #55c0ec;
 }
@@ -150,11 +128,12 @@ p {
 .strong-header{
 	font-weight: bold;
 	color:#ed9a73;
- 	
+
 }
 
 
 /******************* Button *************/
+
 .slk-btn {
 	border: none;
 	background: #404040;
@@ -298,7 +277,7 @@ footer {
 	cursor: pointer;
 	width:3rem;
 	scroll-behavior: smooth;
-	
+	transition: all 0.25s ease-in-out;
   }
   
   #myBtn:hover {
