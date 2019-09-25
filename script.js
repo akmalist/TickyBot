@@ -16,8 +16,9 @@ const topFunction = () => {
   document.documentElement.scrollTop = 0;
 }
 
-const pictureSwitch = (myImage) =>  myImage.src="images/robot1.SVG";
+const pictureSwitch = (myImage) =>  myImage.src="//images/robot1.svg";
 const mouseAway = (myImage) => myImage.src="images/robot2.svg";
+
 
 
 
